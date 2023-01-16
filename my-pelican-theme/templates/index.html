@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <h1 class="m-2">William Setterberg</h1>
+</div>
+<div class="row align-items-center">
+<div class="mt-2 col-12 col-md-4">
+    <img class="headshot" src="static/images/headshot.jpg" alt="william face">
+</div>
+<div class="mt-2 col-12 col-md-8">
+    <h3>
+        <ul>
+            {% for blurb in INDEX_BLURBS %} 
+                <li>{{ blurb }}</li>
+            {% endfor %}
+        </ul>
+    </h3>
+</div>
+</div>
+
+{% endblock content %}

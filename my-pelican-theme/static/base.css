@@ -1,0 +1,35 @@
+body > .container {
+    padding-top: 60px;
+}
+
+.social {
+  height: 3rem;
+  margin-right: 1rem;
+  transition: all .1s ease-in-out;
+}
+
+.social:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.headshot {
+  border-radius: 40%;
+  width: 80%;
+}
+
+#home-but {
+  background-color: #040c33;
+  width: 2em;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+#home-but:hover {
+  background-color: #5a5a5a;
+}

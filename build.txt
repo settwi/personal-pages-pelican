@@ -1,0 +1,1 @@
+pelican --output output --theme-path my-pelican-theme
