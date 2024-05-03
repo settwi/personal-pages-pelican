@@ -28,13 +28,13 @@
           {% if DISPLAY_PAGES_ON_MENU %}
           {% for p in pages %}
           <li class="nav-item">
-            <a target="" class="nav-link" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+            <u><a target="" class="nav-link" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></u>
           </li>
           {% endfor %}
           {% else %}
           {% for (title, link) in MENUITEMS%}
           <li class="nav-item">
-            <a target="_blank" class="nav-link" href="{{ link }}">{{ title }}</a>
+            <u><a target="" class="nav-link" href="{{ link }}">{{ title }}</a></u>
           </li>
           {% endfor %}
           {% endif %}

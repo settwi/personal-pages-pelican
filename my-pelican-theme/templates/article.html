@@ -31,11 +31,11 @@
   </header>
   <footer class="post-info">
     <time class="published" datetime="{{ article.date.isoformat() }}">
-      {{ article.locale_date }}
+      Published: {{ article.locale_date }}
     </time>
     {% if article.modified %}
     <time class="modified" datetime="{{ article.modified.isoformat() }}">
-      {{ article.locale_modified }}
+      Last modified: {{ article.locale_modified }}
     </time>
     {% endif %}
     {% if article.authors %}
@@ -44,11 +44,6 @@
           <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
         {% endfor %}
     </address>
-    {% endif %}
-    {% if article.category %}
-    <div class="category">
-        Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
-    </div>
     {% endif %}
     {% if article.tags %}
     <div class="tags">

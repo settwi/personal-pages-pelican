@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+<style>
+.blog-post-container {
+  background-color: #718bab;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem; /* Add some space between each blog post */
+}
+</style>
+
+{% block title %}{{ SITENAME }}.personal{% endblock %}
+
+{% block content %}
+<h1>Blog posts</h1>
+
+<dl>
+{% for article in dates %}
+<section class="blog-post-container">
+    <dd><h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2></dd>
+    <footer>
+        <p>Published: <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time><br/>
+            By 
+            {% for author in article.authors %}
+                {{ author }}
+            {% endfor %}
+        </p>
+        <strong>{{ article.summary }}</strong>
+    </footer>
+</section>
+{% endfor %}
+</dl>
+{% endblock %}

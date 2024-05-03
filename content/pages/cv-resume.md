@@ -1,6 +1,6 @@
-Title: { cv+resume }
+Title: cv+resume
 Date: 2023-01-15
-Modified: 2023-01-15
+Modified: 2024-04-27
 Slug: cv-resume
 
 # William Setterberg \[<a target="_blank" href="https://drive.google.com/file/d/1jz9Yh4p3Pd6DRObBTujQa5tGJG_ZZph4/view?usp=sharing">see full cv here</a>\]
@@ -24,7 +24,7 @@ He passed his oral exam at the end of his second year, in June 2022.
 #### Analysis projects
 - Analyze [RHESSI](https://hesperia.gsfc.nasa.gov/rhessi3/) and [STIX](https://datacenter.stix.i4ds.net/) data using temporal and fractal techniques
 - Co-analyze [EPI](), [EOVSA]() and X-ray data
-#### [GRIPS]() piggyback
+#### [GRIPS](https://www.ssl.berkeley.edu/sun-heliophysics/grips-3/) piggyback
 - Develop novel high-speed analog readout schemes for scintillation detectors
 - Geant4 and analytical modeling to support science goals
 - Project management (ugh . . . :-])

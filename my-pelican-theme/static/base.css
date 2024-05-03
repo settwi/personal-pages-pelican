@@ -33,3 +33,9 @@ footer {
 #home-but:hover {
   background-color: #5a5a5a;
 }
+
+.blog-post-container {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem; /* Add some space between each blog post */
+}
