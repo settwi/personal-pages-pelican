@@ -4,6 +4,42 @@ Slug: wifi-microwaves-sunlight
 Summary: Discussion on power radiated by WiFi routers vs. microwaves vs. sunlight.
 Status: published
 
+# Update -- what does medical science say about WiFi dosage?
+This article only focuses on the total energy which may be delivered to the human body;
+    it does not address where or how that energy is deposited.
+It was brought to my attention that some studies,
+    particularly [this review study](https://doi.org/10.1016/j.envres.2018.01.035),
+    have sought to understand the effects of WiFi on the human body
+    especially through "non-thermal" interactions.
+
+That review makes some surprising claims which at face value seem rather important.
+The author also cites himself many times.
+And,
+    because of various flaws in the review,
+    a peer of his [submitted a letter to the journal for retraction](https://doi.org/10.1016/j.envres.2018.07.026).
+The peer wrote,
+
+> From the title to the conclusions of Pall's article are not based on adequate evidence.
+> [...]
+> At the usual exposure levels ([Sagar et al., 2017](https://doi.org/10.1038/jes.2017.13)),
+> it does not seem appropriate to
+> think about any biological effects due to the low penetration of Wi-Fi
+> waves, so the publication of this frightening article, can be misinterpreted
+> by part of society concerned, even at pathological levels, by
+> this type of technology. **The errors, bias, a non-existing methodology,
+> the interested choice of the articles, as well as the conclusions not based
+> on human [sic] evidences, indicate that it is an intentional academic misconduct,
+> so I ask for the retraction of this article by the journal.**
+
+There is debate among medical scientists about health impacts of WiFi.
+However,
+    the analysis in this blog post is clear-cut:
+    the energy density of electric fields due to WiFi routers is very small,
+    especially when compared to the energy density of sunlight.
+    
+
+# Original article
+
 This post started out as a fun calculation to compare the power output by microwave ovens and by WiFi routers.
 That's still what it is, but it is also a nice surface-level summary of the physics of antennas, sunlight, estimation, and the FCC.
 Well, not the physics of the FCC, but I did learn why we hire professionals to read the regulations.
@@ -61,7 +97,7 @@ Routers broadcast their energy using antennas rather than magnetrons like in mic
 
 There's a complication: the radiation pattern for a given antenna is not uniform. The most simple dipole antennas have a radiation pattern which is axially symmetric but varies along the other directions like a donut.
 
-<img src="{attach}static/images/dipole.jpg" alt="dipole radiation pattern"/>
+<img src="{attach}static/images/dipole.jpg" alt="dipole radiation pattern" style="max-width: 90%"/>
 
 _Radiation pattern of a dipole antenna of length $L = \lambda$, i.e. a single wavelength.
 WiFi antennas are generally more like $L = \lambda / 10$ in length so the radiation pattern is different.

@@ -39,3 +39,13 @@ footer {
   border-radius: 5px;
   margin-bottom: 1rem; /* Add some space between each blog post */
 }
+
+blockquote {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+}
+
